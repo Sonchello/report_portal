@@ -38,7 +38,6 @@ public class WidgetTest {
 
         loginPage.login("default", "1q2w3e");
 
-
         System.out.println("Осуществление перехода на страницу дашбордов");
         launchesPage = new LaunchesPage(driver);
         launchesPage.openDashboard();
@@ -64,7 +63,6 @@ public class WidgetTest {
 
         BrowserManager.quitDriver();
         System.out.println("Браузер закрыт");
-
 
     }
 }

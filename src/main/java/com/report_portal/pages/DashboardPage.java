@@ -63,11 +63,8 @@ public class DashboardPage extends BasePage {
 
         nextBtn.click();
 
-
         WebElement saveBtn=  wait.until(ExpectedConditions.elementToBeClickable(saveWidgetButton));
         saveBtn.click();
-
-
     }
 }
 

@@ -30,7 +30,7 @@ public class DashboardApiNegativeTest {
         System.out.println("Тело ответа: " + response.getBody().asString());
 
         if (statusCode == 400 || statusCode == 422) {
-            System.out.println("Тест пройден, сервер вернул ошибку, потому что имя обязательно.");
+            System.out.println("Тест пройден, сервер вернул ошибку, потому что имя обязательно");
         } else {
             System.out.println("Тест провален, ожидался статус 400 или 422, но был " + statusCode);
         }
